@@ -1,7 +1,7 @@
 {
-  "name": "react-cardstack",
+  "name": "react-pagestack",
   "version": "0.1.0",
-  "description": "react component inspired by the iOS passbook app UI",
+  "description": "react component inspired by the react-cardstack",
   "main": "dist/index.js",
   "keywords": [
     "react",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cameronbourke/cardstack.git"
+    "url": "https://github.com/rbaggio018/react-pagestack.git"
   },
   "scripts": {
     "start": "webpack-dev-server --content-base example/",
@@ -26,7 +26,7 @@
     "dist",
     "umd"
   ],
-  "author": "Cameron Bourke <cameron2295@gmail.com> (http://cameronbourke.com/)",
+  "author": "Bo Liang <rbaggio018@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.3.17",
