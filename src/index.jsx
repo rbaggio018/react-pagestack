@@ -1,4 +1,4 @@
-import CardStack from './cardstack';
-import Card from './card';
+import PageStack from './pagestack';
+import Page from './page';
 
-export { Card, CardStack };
+export { Page, PageStack };

@@ -17,8 +17,8 @@
   "scripts": {
     "start": "webpack-dev-server --content-base example/",
     "compile": "babel src --out-dir dist",
-		"build:umd": "webpack",
-		"build:example": "webpack --config ./example/webpack.config.js --progress --colors",
+    "build:umd": "webpack",
+    "build:example": "webpack --config ./example/webpack.config.js --progress --colors",
     "prepublish": "npm run compile && npm run build:umd && npm run build:example",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -44,5 +44,9 @@
   },
   "peerDependencies": {
     "react": ">=0.14.5"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   }
 }
